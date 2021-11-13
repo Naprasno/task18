@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+.header, .footer, .section {
+width: 80%;
+margin:  0 auto;
+background-color: bisque;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.section {
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+
+.header ul {
+text-align: right;
+margin-right: 50px;
+}
+
+.header a{
+    text-decoration: none;
+}
+.header li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+
+
+
+.form__inputs input{
+	width: 250px;
+	height: 30px;
+    margin-bottom: 10px;
+}
+
+.section__contact__form{
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 30px;
+}

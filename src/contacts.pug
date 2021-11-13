@@ -1,0 +1,21 @@
+- var pageTitle = "contacts"
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style 
+      include styles/style.css
+  body
+    include modules/header
+    .section
+        h1 Контакты
+        .about Lorem ipsum dolor 1561651684431311 <br> sit amet, consectetur adipisicing elit. 51656515113 Nostrum, nam quibusdam quae iure, eaque minus adipisci neque sit accusantium obcaecati reprehenderit error officiis facilis rerum? Dolorem fugit voluptatibus cupiditate neque?
+        .section__contact__form
+            .form__inputs
+                h3 Обратный звонок
+                input(type='text', class="input", placeholder="Ваше имя")
+                input(type='text', class="input", placeholder="Ваше телефон")
+                button Отправить
+
+    include modules/footer
